@@ -1,138 +1,163 @@
-index.html
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Portfolio</title>
-<style>
-body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-  background: #f0fdfa;
-  color: #0f172a;
-}
-header {
-  background: #06b6d4;
-  color: white;
-  padding: 40px 20px;
-  text-align: center;
-}
-section {
-  padding: 30px 20px;
-  max-width: 900px;
-  margin: auto;
-}
-h2 {
-  color: #06b6d4;
-}
-.skills span {
-  display: inline-block;
-  background: #22d3ee;
-  color: #083344;
-  padding: 6px 12px;
-  margin: 6px;
-  border-radius: 20px;
-  font-size: 14px;
-}
-a {
-  color: #06b6d4;
-  text-decoration: none;
-}
-footer {
-  background: #083344;
-  color: white;
-  text-align: center;
-  padding: 15px;
-}
-</style>
+  <meta charset="UTF-8">
+  <title>Mareddy Madhav | Software Engineer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Inter&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Inter, sans-serif;
+      color: #333;
+      background: #ffffff;
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+
+    h1 {
+      font-family: Poppins, sans-serif;
+      font-size: 38px;
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      font-family: Poppins, sans-serif;
+      margin-top: 60px;
+      margin-bottom: 20px;
+      font-size: 26px;
+      color: #0077cc;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 60px 20px;
+    }
+
+    .hero p {
+      font-size: 18px;
+      margin: 8px 0;
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 24px;
+      background: #0077cc;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: 600;
+    }
+
+    .button:hover {
+      background: #005fa3;
+    }
+
+    .tags span {
+      display: inline-block;
+      background: #f0f4f8;
+      padding: 8px 14px;
+      margin: 6px;
+      border-radius: 20px;
+      font-size: 14px;
+    }
+
+    .card {
+      background: #f8f9fa;
+      padding: 20px;
+      border-radius: 10px;
+      margin-bottom: 20px;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 60px;
+      font-size: 14px;
+    }
+
+    footer a {
+      color: #0077cc;
+      text-decoration: none;
+      margin: 0 6px;
+    }
+  </style>
 </head>
 
 <body>
 
-<header>
-  <h1>Mareddy Madhav</h1>
-  <p>Software Engineer | Java | SQL | MongoDB</p>
-</header>
-
-<section>
-  <h2>About Me</h2>
-  <p>
-    Entry-level Software Engineer with hands-on internship experience in backend development.
-    Passionate about building scalable applications and learning modern technologies.
-  </p>
-</section>
-
-<section>
-  <h2>Skills</h2>
-  <div class="skills">
-    <span>Java</span>
-    <span>SQL</span>
-    <span>MongoDB</span>
-    <span>HTML</span>
-    <span>CSS</span>
-    <span>Git</span>
+  <div class="hero">
+    <h1>Mareddy Madhav</h1>
+    <p><strong>Aspiring Software Engineer</strong></p>
+    <p>Python • Node.js • React • SQL</p>
+    <a class="button" href="Mareddy_Madhav_Resume.pdf" target="_blank">View Resume</a>
   </div>
-</section>
 
-<section>
-  <h2>Projects</h2>
-  <p><b>Student Management System</b><br>
-     Java, SQL – CRUD based academic management application.</p>
+  <div class="container">
 
-  <p><b>Employee Database Application</b><br>
-     Java, MongoDB – Data handling and query optimization project.</p>
-</section>
+    <h2>About</h2>
+    <p>
+      Aspiring software engineer with hands-on experience in full-stack and backend development.
+      Strong foundation in data structures, system design, and real-world project development.
+    </p>
 
-<section>
-  <h2>Experience</h2>
-  <p>
-    Software Engineering Intern – 3 Months<br>
-    Worked on backend logic, database queries, and bug fixing.    
-  </p>
-</section>
+    <h2>Skills</h2>
+    <div class="tags">
+      <span>Python</span>
+      <span>Node.js</span>
+      <span>React</span>
+      <span>SQL</span>
+      <span>MongoDB</span>
+      <span>Git</span>
+      <span>REST APIs</span>
+    </div>
 
-<section>
-  <h2>Education</h2>
-  <p>Bachelor’s Degree in Engineering</p>
-</section>
-<section>
-  <h2>Resume</h2>
-  <p>
-    <a href="Mareddy_Madhav_Resume.pdf" target="_blank">
-      Download My Resume
-    </a>
-  </p>
-</section>
-  
-  <section>
-  <h2>Contact</h2>
-  <p>
-    Email:
-    <a href="mailto:mareddymadhav@gmail.com">
-      mareddymadhav@gmail.com
-    </a><br>
+    <h2>Projects</h2>
+    <div class="card">
+      <strong>AI-powered Stock Market Research Assistant</strong>
+      <p>
+        Full-stack Streamlit application integrating technical analysis, sentiment analysis,
+        and AI-driven insights.
+      </p>
+    </div>
 
-    LinkedIn:
-    <a href="https://www.linkedin.com/in/madhavmareddy" target="_blank">
-      linkedin.com/in/madhavmareddy
-    </a><br>
+    <div class="card">
+      <strong>AI-powered Code Review Platform</strong>
+      <p>
+        Web platform that generates intelligent feedback on code using GenAI APIs.
+      </p>
+    </div>
 
-    GitHub:
-    <a href="https://github.com/athena2005" target="_blank">
-      github.com/athena2005
-    </a>
-  </p>
-</section>
+    <h2>Experience</h2>
+    <div class="card">
+      <strong>Software Developer Intern – Volta</strong>
+      <p>
+        Developed intern management dashboards with role-based access and real-time task tracking.
+      </p>
+    </div>
 
-    
+    <h2>Education</h2>
+    <p>
+      <strong>VIT Chennai</strong><br>
+      B.Tech – Electronics & Computer Engineering (CGPA: 8.09)
+    </p>
 
-</section>
+    <footer>
+      <p>
+        📧 mareddymadhav@gmail.com |
+        <a href="https://github.com/athena2005" target="_blank">GitHub</a> |
+        <a href="https://www.linkedin.com/in/madhavmareddy" target="_blank">LinkedIn</a>
+      </p>
+    </footer>
 
-<footer>
-  © 2026 Mareddy Madhav
-</footer>
+  </div>
 
 </body>
 </html>
-    
